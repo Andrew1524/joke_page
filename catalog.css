@@ -1,0 +1,30 @@
+ .title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	height: 60px;
+	background: linear-gradient(#024a9c, #36d6ec);
+ }
+ 
+ .catalog {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60vh;
+ }
+
+ .catalog .project {
+	/* display: flex;
+	flex-direction: column; */
+	text-align: center;
+ }
+
+ .catalog {
+	background: linear-gradient(#36d6ec, #f7814f);
+ }
+ 
+ img {
+	width: 200px;
+}

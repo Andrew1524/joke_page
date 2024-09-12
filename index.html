@@ -5,83 +5,77 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./hero.css">
 </head>
 <body>
 	<header>
 		<div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREURSKMljVXEm57DuInU5lTToyHcaiYmWnmA&s" alt="logo"></div>
-		<button class="action-btn">Call me</button>
-		<a title="fuul" href="./petproject.html">My Projects</a>
+			<div class="actions">
+				<button class="action-btn">Call me</button>
+				<a title="fuul" href="./petproject.html">My Projects</a>
+				<a href="abiut.html">About me</a>
+			</div>
 	</header>
 	<main>
 		<section class="hero">
-			<h1>Chebupelli Artemskii</h1>
-			<h3>Junior Fronted Developer </h3>
+			<div>
+				<h1>Chebupelli Artemskii</h1>
+				<h3>Junior Fronted Developer </h3>
+			</div>
+			<img src="https://media.licdn.com/dms/image/D5612AQEFCygme4vftA/article-cover_image-shrink_720_1280/0/1690970596678?e=2147483647&v=beta&t=GG8aM4SbtcT355CgcunfBosHrU3wB0H0IB5bX0Mt9QE" alt="developer">
 		</section>
-		<hr>
+		 
 		<section class="description">
-			<h3>I do ma best as long as i live. My goal is to make this world a better </h3>
+			<div>
+				<h3>I do ma best as long as i live. My goal is to make this world a better </h3>
+			</div>
 		</section>
-		<hr>
+		 
 		<section class="key-points">
 			<ul>
-				<li class="key-point"><b>Quality</b> I invest my time only in progress</li>
-				<li class="key-point"><b>Uniqueness</b> I'm best employees on junor position </li>
-				<li class="key-point"><b>Delivery</b> I deliver the project on deadline</li>
+				<li class="key-point"><b>Quality:</b> I invest my time only in progress self-development</li>
+				<li class="key-point"><b>Uniqueness:</b> I'm best employees on junor position </li>
+				<li class="key-point"><b>Delivery:</b> I deliver the project on deadline</li>
 			</ul>
 		</section>
-		<hr>
+		 
 		<section class="action-step">
-			<h3>Ok. So, as for me, my introduce and my experience are too good to get the Offer  </h3>
-			<button class="action-btn">Call Me or msg</button>
-			<input type="text" placeholder="+380635942958">
+			<div>
+				<h3>Ok. So, as for me, my introduce and my experience are too good to get the Offer  </h3>
+				<button class="action-btn">Call Me or msg</button>
+			</div>
 		</section>
-		<hr>
-		<section class="form-for">
-			<form>
-				<!-- <fieldset> -->
-					<legend>
-						Your data for consideration 
-					</legend>
-					<label
-						>Enter your full name</label
-					>
-					<input type="text" name="name" />
-					<label>Enter your email</label>
-					<input
-						type="email"
-						name="email"
-					/>
-					<label>Enter your gender</label>
-					<input
-						type="radio"
-						name="gender"
-						value="male"
-					/>Male
-					<input
-						type="radio"
-						name="gender"
-						value="female"
-					/>Female
-					<input
-						type="radio"
-						name="gender"
-						value="others"
-					/>Others
-					<label>Enter your Date of
-						Birth
-					</label>
-					<input type="date" name="dob" />
-					<label>What is your goals for me?</label>
-					<textarea placeholder="Tell me about you"></textarea>
-					<input
-						type="submit"
-						value="submit"
-					/>
+		 
+		<section class="form">
+			<h3>Your data for consideration </h3>
+				<form>
+					<label for="name">Enter your full name</label><br>
+					<input type="text" name="name" id="name" required/><br>
+
+					<label for="email">Enter your email</label><br>
+					<input type="email" id="email" name="email" required/><br>
+
+					<label for="message">What is your goals for me?</label><br>
+					<textarea id="message" name="message" rows="4" required></textarea><br>
+					<input type="submit" value="submit"type="submit"
 					<h2>Thank you! Have a nice day))</h2>
-				<!-- </fieldset> -->
-			</form>
+				</form>
 		</section>
 	</main>
-	<footer></footer>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-line">
+				<h4>Follow me</h4>
+				<ul>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/c238f6997f.js" crossorigin="anonymous"></script>
 </body>
 </html>
